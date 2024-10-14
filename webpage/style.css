@@ -1,0 +1,135 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  /* font-weight: 5px; */
+  color: white;
+  background-color: black;
+  border-radius: 30px;
+  /* padding: 10px; */
+}
+
+.btn1 {
+  font-size: 17px;
+  height: 30px;
+  width: 100px;
+}
+a:link,
+a:visited {
+  /* color: black; */
+  padding-right: 15px;
+  font-size: 18px;
+  display: inline-block;
+  /* margin-bottom: 30px; */
+  text-decoration: none;
+}
+
+.anc {
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 70px 10px;
+  align-items: center;
+  background-color: rgb(241 239 225);
+  /* position: absolute; */
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.anc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mid {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 8px;
+}
+
+.container {
+  margin: auto 0;
+  border-top: 1px solid black;
+  /* height: 550px; */
+  height: 650px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  background-color: rgb(241 239 225);
+  width: 100%;
+
+  margin-top: 72px;
+}
+
+.main {
+  padding-top: 100px;
+  padding-left: 70px;
+}
+
+.line {
+  font-size: 120px;
+  line-height: 100px;
+  opacity: 0.9;
+}
+
+.para {
+  /* padding-left: 70px;   */
+  padding-top: 70px;
+  font-family: sans-serif;
+  font-size: 28px;
+  font-weight: 5px;
+  line-height: 1.4;
+  width: 800px;
+}
+
+#btn {
+  padding: 10px 50px;
+  font-size: 25px;
+  border-radius: 40px;
+}
+.bt {
+  /* padding-left: 70px; */
+  padding-top: 48px;
+}
+
+/* .child {
+  height: 200px;
+  width: 200px;
+} */
+
+.image {
+  margin-left: 90px;
+  height: 100%;
+  width: 480px;
+}
+
+.foot {
+  display: flex;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: rgb(241 239 225);
+  width: 100%;
+}
+
+.foo {
+  color: #adb5bd;
+}
+
+

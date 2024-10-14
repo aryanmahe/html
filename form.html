@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Forms in HTML</h1>
+    <form action="backend.js">
+      <fieldset>
+        <legend>My Form</legend>
+        <div>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            placeholder="Enter your name .."
+            id="name"
+            name="naam"
+          />
+        </div>
+        <div>
+          <label for="">Age:</label>
+          <input type="number" placeholder="Enter your age" name="age" />
+        </div>
+        <div>
+          <label for="">Email:</label>
+          <input type="email" placeholder="Enter your email" name="email" />
+        </div>
+        <div>
+          <label for="">Password:</label>
+          <input
+            type="password"
+            placeholder="Enter your password"
+            name="pass"
+          />
+        </div>
+        <div>
+          <label for="">file:</label>
+          <input type="file" placeholder="Enter your file" name="file" />
+        </div>
+        <div>
+          <label for="">Date:</label>
+          <input type="date" placeholder="Date of your birth" name="date" />
+        </div>
+        <div>
+          <label for="">Time:</label>
+          <input type="time" placeholder="Enter time" name="time" />
+        </div>
+        <div>
+          <label>Gnder</label>
+          <input type="radio" name="abcde" />Male
+          <input type="radio" name="abcde" />Female
+          <input type="radio" name="abcde" />Other
+        </div>
+        <div>
+          <label>Movies</label>
+          <select>
+            <option value="">KGF2</option>
+            <option value="">Endgame</option>
+            <option value="">Deadpool</option>
+            <option value="">Avatar</option>
+          </select>
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
